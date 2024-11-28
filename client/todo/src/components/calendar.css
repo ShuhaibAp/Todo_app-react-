@@ -1,0 +1,31 @@
+.calendar-container {
+    max-width: 100%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-calendar {
+    border: none;
+    
+}
+
+.task-list {
+    max-height: 400px;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.list-group-item {
+    border: none;
+    font-size: 16px;
+}
+
+.list-group-item span {
+    font-weight: bold;
+}

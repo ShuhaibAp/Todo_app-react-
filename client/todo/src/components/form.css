@@ -1,0 +1,35 @@
+.form-container {
+    background-color: rgba(216, 222, 227, 0.5); /* Light gray with 80% opacity */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6); /* Slightly darker shadow for better contrast */
+    max-width: 600px;
+    margin: auto;
+    margin-top: 50px; /* Add some spacing at the top */
+}
+
+
+h2 {
+    color: #007bff; /* Blue color for the heading */
+    font-weight: bold;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Space buttons evenly */
+    margin-top: 20px; /* Add some space above buttons */
+}
+
+.form-label {
+    font-weight: bold; /* Bold labels */
+}
+
+input[type="text"], input[type="date"],textarea {
+    /* border: 1px solid #007bff; */
+    transition: border-color 0.3s; 
+}
+
+input[type="text"]:focus, input[type="date"]:focus, textarea:focus {
+    border-color: #0056b3; /* Darker blue on focus */
+    outline: none; /* Remove outline */
+}
