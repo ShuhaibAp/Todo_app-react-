@@ -10,7 +10,7 @@ This is a full-stack To-Do List application using Django (backend), React (front
 ## Setup Instructions
 
 ### Backend (Django)
-1. Clone the repo: `git clone <repo_url> && cd <project_directory>`
+1. Clone the repo: `git clone https://github.com/ShuhaibAp/Todo_app-react- && cd server`
 2. Create a virtual environment: `python3 -m venv venv && source venv/bin/activate`
 3. Install dependencies: `pip install -r requirements.txt`
 4. Set up MySQL:
