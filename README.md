@@ -23,7 +23,7 @@ Before you begin, ensure that you have the following installed on your UNIX-base
 
 1. Clone the project repository:git clone https://github.com/ShuhaibAp/Todo_app-react- cd server/todo
 2. Create and activate a virtual environment:python3 -m venv venv source venv/scripts/activate
-3. Install the dependencies:pip install django pip install djangorestframework pip install django-cors-headers pip install mysqlclient 
+3. Install the dependencies:pip install django pip install djangorestframework pip install django-cors-headers pip install mysqlclient pip install django-filter
 4. Configure MySQL database:
 - Create a MySQL database:
   ```
