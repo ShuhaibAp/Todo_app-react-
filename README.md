@@ -21,9 +21,10 @@ Before you begin, ensure that you have the following installed on your UNIX-base
 
 ### Backend Setup (Django)
 
-1. Clone the project repository:git clone https://github.com/ShuhaibAp/Todo_app-react- cd server/cd todo
+1. Clone the project repository:git clone https://github.com/ShuhaibAp/Todo_app-react- cd server/todo
 2. Create and activate a virtual environment:python3 -m venv venv source venv/scripts/activate
-3. Configure MySQL database:
+3. Install the dependencies:pip install django pip install djangorestframework pip install django-cors-headers pip install mysqlclient 
+4. Configure MySQL database:
 - Create a MySQL database:
   ```
   mysql -u root -p
@@ -49,14 +50,14 @@ Before you begin, ensure that you have the following installed on your UNIX-base
 
 ### Frontend Setup (React)
 
-1. Navigate to the React frontend directory:cd client/cd todo
-2. Install the required npm packages:npm install
+1. Navigate to the React frontend directory:cd client/todo
+2. Install the required npm packages:npm install react-router-dom react-toastify date-fns react-calendar bootstrap
 3. Start the React development server:npm run dev
 
 ## Running the Application
 
 Once both servers are running:
-- Open your browser and visit the React frontend at `http://localhost:3000`.
+- Open your browser and visit the React frontend at `http://127.0.0.1:5173`.
 - The backend Django server is available at `http://127.0.0.1:8000`.
 
 ## Testing API Endpoints
