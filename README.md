@@ -87,7 +87,7 @@ Once both servers are running:
 
 3. **API Issues**:
    - Verify that the Django server is running.
-   - Use Postman or curl to check API responses directly.
+   - Use Postman to check API responses directly.
 
 
 ## Future Enhancements
